@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+{{ site.tutorials.first.content }}
