@@ -8,8 +8,18 @@ url: "https://www.vue-on-django.com" # the base hostname & protocol for your sit
 twitter_username: paytastic
 github_username:  rpalo
 
+collections:
+  tutorials:
+    output: true
+    permalink: pretty
+
+source: src
+timezone: America/Los_Angeles
+port: 4545
+
 # Build settings
 markdown: kramdown
+profile: true
 theme: minima
 plugins:
   - jekyll-feed
